@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
+
+*{
+    margin:0;
+    padding:0
+}
+.calculator{
+    text-align: center;
+    width:255px;
+    margin: 30px auto;
+    font-size: 0px;
+
+}
+.calculator:hover{
+    box-shadow: 4px 3px 5px;
+    transition: 0.2s;
+
+}
+.cal-head input{
+    width:252px;
+    box-sizing: border-box;
+    padding:10px;
+    text-align: right;
+    height:50px;
+    background: darkgray;
+    border: none;
+    border:1px solid black
+   
+}
+.cal-body .but1{
+    padding:8px 16px;
+    height:45px;
+    width:63px;
+    text-align: center;
+    background: coral;
+    border:none;
+    border:1px solid black
+
+}
+.cal-body .but1:hover{
+    background: crimson;
+}
+.cal-body .but2{
+    padding:8px 16px;
+    height:45px;
+    width:63px;
+    background: cornflowerblue;
+    border:none;
+    border:1px solid black
+
+}
+.cal-body .but2:hover{
+    background: crimson;
+}
